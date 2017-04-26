@@ -4,9 +4,18 @@
     "description" : "Hyperledger Fabric CA Server APIs provides certificate authority services for the blockchain.",
     "version" : "0.7.0",
     "title" : "Fabric CA Server API",
-    "contact" : { }
+    "contact" : {
+      "name" : "TechSpaceHub",
+      "url" : "https://redefineme.io",
+      "email" : "support@redefineme.io"
+    },
+    "license" : {
+      "name" : "Apache 2.0",
+      "url" : "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
   },
   "host" : "localhost:3000",
+  "basePath": "/api",
   "schemes" : [ "http" ],
   "consumes" : [ "application/json" ],
   "produces" : [ "application/json" ],
